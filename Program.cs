@@ -112,6 +112,7 @@ namespace FirstConsoleProject
 			dog.setAge(10);
 			Console.WriteLine(dog.getName() + "\t" + dog.getAge());
 
+
 		}
 		public static void thisIsAMethod()
 		{
