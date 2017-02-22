@@ -3,6 +3,38 @@ using System.Collections.Generic;
 
 namespace FirstConsoleProject
 {
+	class animal
+	{
+		private string name = "Spot";
+		private int age = 6;
+		private float happiness = 0.5f;
+
+		public string getName()
+		{
+			return name;
+		}
+		public int getAge()
+		{
+			return age;
+		}
+		public float getHappiness()
+		{
+			return happiness;
+		}
+		public void setName(string n)
+		{
+			name = n;
+		}
+		public void setAge(int a)
+		{
+			age = a;
+		}
+		public void setHappiness(float h)
+		{
+			happiness = h;
+		}
+	}
+
 	class MainClass
 	{
 		public static void Main(string[] args)
@@ -69,7 +101,16 @@ namespace FirstConsoleProject
 			//numbers.Add(14);
 			//Console.WriteLine(numbers[1]);
 
-			createGrid();
+			//GRID
+			//createGrid();
+
+
+			//CLASSES
+			animal dog = new animal();
+			Console.WriteLine(dog.getName() + "\t" + dog.getAge());
+			dog.setName("Sam");
+			dog.setAge(10);
+			Console.WriteLine(dog.getName() + "\t" + dog.getAge());
 
 		}
 		public static void thisIsAMethod()
