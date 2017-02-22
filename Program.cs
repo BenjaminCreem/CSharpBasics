@@ -113,6 +113,7 @@ namespace FirstConsoleProject
 			Console.WriteLine(dog.getName() + "\t" + dog.getAge());
 
 			Console.WriteLine("Test Line");
+			Console.WriteLine("Test Line2");
 
 		}
 		public static void thisIsAMethod()
