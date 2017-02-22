@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace FirstConsoleProject
 {
@@ -59,6 +60,15 @@ namespace FirstConsoleProject
 			//{
 			//	Console.WriteLine(arrayExample[i]);
 			//}
+
+
+			//LISTS
+			//List<int> numbers = new List<int>();
+			//numbers.Add(1);
+			//numbers.Add(7);
+			//numbers.Add(14);
+			//Console.WriteLine(numbers[1]);
+
 
 
 		}
