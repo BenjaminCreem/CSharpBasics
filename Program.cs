@@ -69,12 +69,29 @@ namespace FirstConsoleProject
 			//numbers.Add(14);
 			//Console.WriteLine(numbers[1]);
 
-
+			createGrid();
 
 		}
 		public static void thisIsAMethod()
 		{
 			Console.WriteLine("This is a method");
+		}
+
+		public static void createGrid()
+		{
+			int width = 5;
+			int height = 5;
+
+			int[,] grid = new int[width, height];
+			grid[2, 3] = 10;
+			for (int x = 0; x < width; x++)
+			{
+				for (int y = 0; y < height; y++)
+				{
+					Console.Write(grid[x, y] + " ");
+				}
+				Console.WriteLine();
+			}
 		}
 	}
 }
